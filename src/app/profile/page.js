@@ -5,7 +5,7 @@ import { Cookies } from 'react-cookie';
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export default function Page() {
+export default function Profile() {
 
     const [userData, setUserData] = useState(null);
     const cookies = new Cookies();
